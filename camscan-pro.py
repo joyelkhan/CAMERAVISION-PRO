@@ -97,7 +97,7 @@ class CameravisionConfig:
         else:
             self.config.read(self.config_file)
     
-    def _save_config):
+    def _save_config(self):
         """Save current configuration to file"""
         with open(self.config_file, 'w') as f:
             self.config.write(f)
